@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:wght@200;300;400;500;600;700&display=swap');
+
+:root {
+  --primary: #0caf60;
+  --textColor: #637381;
+  color: #212b36;
+}
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: 'Montserrat Variable', 'Roboto', 'Arial', sans-serif !important;
+}
+
+.truncate {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.MuiAutocomplete-option {
+  text-transform: capitalize;
+}
+
+@keyframes sidebarAnimate {
+  from {
+    transform: 'translateX(0px)';
+  }
+  to {
+    transform: 'translateX(-100px)';
+  }
+}
+
+.gLSOXn {
+  color: none !important;
+}
+
+.MuiYearCalendar-root button {
+  font-size: 16px !important;
+}
+
+.tab-box {
+  display: flex;
+  padding: 4px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 6px;
+  border: 1px solid var(--Gray, #cdd2d7);
+  gap: 5px;
+
+  .tab {
+    color: var(--Gray, #cdd2d7);
+    font-size: 14px;
+    font-weight: 700;
+    padding: 6px 12px;
+    cursor: pointer;
+  }
+  .active-tab {
+    border-radius: 6px;
+    background: var(--Light-Green, #ebf8f3);
+    color: var(--Green, #00a76f);
+  }
+}
+
+.layout-outlet-box:has(.stats-box) {
+  background-color: white;
+}
+
+.slick-prev:before,
+.slick-next:before {
+  color: black;
+}
+
+button {
+  cursor: pointer;
+}
+
+.btn-back {
+  color: #212b36 !important;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 36px;
+}
